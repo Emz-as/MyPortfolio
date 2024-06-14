@@ -14,7 +14,7 @@ import "./Intro.css";
 export const Intro = () => {
   return (
     <div className="w-full h-[500px] my-2 ">
-      <div className="flex ">
+      <div className="flex">
         <div className="bg-blue-300 w-[50%] h-[500px] text-xl flex flex-col justify-center p-10 ">
           <h1 className="mb-10 ml-[45%] w-[15%] rounded-full border-2 border-black pl-3">
             {" "}

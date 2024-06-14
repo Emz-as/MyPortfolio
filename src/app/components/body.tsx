@@ -5,10 +5,10 @@ export const Body = () => {
   return (
     <div className=''>
         <div className=''>
-            <h1 className='ml-[5%] font-medium text-2xl mt-8'>About Me</h1>   
+            <h1 className='ml-[10%] font-medium text-2xl mt-8 overline overline-offset-2px decoration-2 '>About Me</h1>   
        </div>
         <div className= 'flex justify-center relative '>
-            <p className='w-[40%] flex absolute text-lg font-serif top-[50px] right-[60px]'>
+            <p className='w-[40%] flex absolute text-lg font-serif top-[50px] right-[170px]'>
         {" "}
         Hello! I'm Emma Osei Bonsu, a passionate UI/UX designer with a keen eye for detail and a love for creating intuitive and engaging digital experiences.
                  With a formidable understanding in software development, I bring a unique blend of design and technical skills to every project I undertake.
@@ -20,7 +20,7 @@ export const Body = () => {
                 to create products that delight users and drive business success. Let's work together to turn your vision into a reality!
         </p>
         <div>
-        <Image src={picture} alt= "picture" className='absolute top-[50px] left-[50px] w-[300px] h-[300px] rounded-full'/>
+        <Image src={picture} alt= "picture" className='absolute top-[50px] left-[100px] w-[300px] h-[300px] rounded-full'/>
         </div>
         </div>
     
