@@ -14,25 +14,25 @@ const skillsimages = [
 ];
 
   return (
-    <div className='bg-blue-300 h-[700px] justify-center relative'> 
-      <div className='h[100px] w-[100px] absolute left-[700px] top-[100px] '>antd</div> 
-      <div className='h-[100px] w-[100px] absolute right-[700px] top-[100px] bg-red-800'>Canva</div>
-      <div className='h-[100px] w-[100px] absolute left-[700px] top-[400px] bg-red-500'>Typescript</div>
-      <div className='text-3xl font- text-center font-serif'>HTML</div>
-      <div className='text-xl flex absolute left-[500px] top-[400px] bg-violet-400'>Nextjs</div>
-      <div className='text-xl flex absolute left-[500px] top-[400px] bg-violet-400'>CSS</div>
-      <div className='text-xl flex absolute left-[400px] bg-zinc-400'>Figma</div>
-      <div className='text-xl flex absolute left-[100px] bg-slate-600'>Tailwind</div>
+    <div className='bg-blue-100 h-[700px] justify-center relative'> 
+    <div className='text-center text-blue-400 text-3xl '> My Skillset </div>
+      <div className='text-base text-[#c7d0ff] [100px] w-[100px] absolute right-[550px] top-[30px] font-medium '>antd</div> 
+      <div className='text-xl text-[#c7d0ff] font-normal h-[100px] w-[100px] absolute left-[1000px] top-[310px]'>Canva</div>
+      <div className='h-[100px] text-[#c7d0ff] w-[100px] font-medium text-lg absolute right-[400px] top-[355px]'>Typescript</div>
+      <div className='text-2xl text-[#c7d0ff] font-medium absolute top-[60px] right-[250px] '>HTML</div>
+      <div className='text-base text-[#c7d0ff] font-semibold flex absolute left-[240px] top-[230px]'>CSS</div>
+    <div className='text-xl text-[#c7d0ff] font-serif flex absolute left-[330px] top-[30px] '>Figma</div>
+      <div className='text-xl text-[#c7d0ff] font-medium flex absolute left-[550px] top-[340px]'>Tailwind</div>
+      <div className= 'text-sm text-[#c7d0ff] font-medium flex absolute left-[620px] top-[150px]'>next.js</div>
       
       <h1> </h1>
-      <div className='bg-green-400 w-full h-[300px] flex justify-center space-x-40 p-10' >
+      <div className='w-full h-[300px] flex justify-center space-x-40 p-24' >
         {skillsimages.map(({id,img}) => (
-       <div key={id} className='bg-white w-[8%] p-6 rounded-2xl h-[140px]'>
+       <div key={id} className='bg-white w-[8%] p-6 rounded-2xl h-[140px] frontend, UI/UX,'>
        <Image src={img} alt='figma' className='h-[100px] w-[100px]'/>
         </div> 
 ))} 
-  <div>react</div>
-  <div>canva</div>
+
       </div>
     </div>
   )
