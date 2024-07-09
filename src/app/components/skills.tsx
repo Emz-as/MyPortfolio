@@ -14,8 +14,8 @@ const skillsimages = [
 ];
 
   return (
-    <div className='bg-blue-100 h-[700px] justify-center relative'> 
-    <div className='text-center text-blue-400 text-3xl '> My Skillset </div>
+    <div className='h-[450px] justify-center relative'> 
+    <div className='font-black flex justify-center relative text-blue-400 text-3xl '> My Skillset </div>
       <div className='text-base text-[#c7d0ff] [100px] w-[100px] absolute right-[550px] top-[30px] font-medium '>antd</div> 
       <div className='text-xl text-[#c7d0ff] font-normal h-[100px] w-[100px] absolute left-[1000px] top-[310px]'>Canva</div>
       <div className='h-[100px] text-[#c7d0ff] w-[100px] font-medium text-lg absolute right-[400px] top-[355px]'>Typescript</div>
@@ -28,7 +28,7 @@ const skillsimages = [
       <h1> </h1>
       <div className='w-full h-[300px] flex justify-center space-x-40 p-24' >
         {skillsimages.map(({id,img}) => (
-       <div key={id} className='bg-white w-[8%] p-6 rounded-2xl h-[140px] frontend, UI/UX,'>
+       <div key={id} className=' w-[8.8%] p-6 rounded-2xl border-2 shadow-lg  h-[140px] '>
        <Image src={img} alt='figma' className='h-[100px] w-[100px]'/>
         </div> 
 ))} 

@@ -1,6 +1,7 @@
 
 import { Intro } from "./components/Intro";
 import { Body } from "./components/body";
+import { Experience } from "./components/experience";
 import { Navbar } from "./components/navbar";
 import {Skills} from "./components/skills";
 
@@ -11,6 +12,7 @@ export default function Home() {
       <Intro/>
       <Body/>
       <Skills/>
+      <Experience/>
     </main>
     
   );
