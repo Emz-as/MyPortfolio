@@ -4,6 +4,7 @@ import { Body } from "./components/body";
 import { Experience } from "./components/experience";
 import { Navbar } from "./components/navbar";
 import {Skills} from "./components/skills";
+import {Bottom} from "./components/bottom";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Body/>
       <Skills/>
       <Experience/>
+      <Bottom/>
     </main>
     
   );
